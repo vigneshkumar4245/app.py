@@ -133,5 +133,5 @@ if st.session_state.form_created and st.session_state.summary_done:
         with st.container(border=True):
             st.subheader("Top 3 complaints")
             for i, (title, count) in enumerate(sample_complaints, start=1):
-                st.write(f"{i}. {title} ({count} mentions)")python  --version
+                st.write(f"{i}. {title} ({count} mentions)")
                 
